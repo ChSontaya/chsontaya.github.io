@@ -1,8 +1,10 @@
 blockquote {
     margin: 0;
+    background-color: red;
 }
 
-blockquote p {
+p {
+    color:gray;
     padding: 15px;
     background: #eee;
     border-radius: 5px;
