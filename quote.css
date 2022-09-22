@@ -1,13 +1,11 @@
 blockquote {
     margin: 0;
-    background-color: red;
+    padding: 15px;
+    border-radius: 5px;
 }
 
 p {
-    color:gray;
-    padding: 15px;
-    background: #eee;
-    border-radius: 5px;
+ color:gray;
 }
 
 blockquote p::before {
