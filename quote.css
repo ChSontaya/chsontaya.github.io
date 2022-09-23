@@ -2,6 +2,7 @@ blockquote {
     margin: 0;
     padding: 15px;
     border-radius: 5px;
+    background-color: aquamarine;
 }
 
 p {
