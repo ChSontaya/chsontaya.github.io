@@ -325,7 +325,6 @@ code {
 }
 
 
-
 blockquote {
 
   font-family: The1 Official;
@@ -346,7 +345,7 @@ blockquote {
 
   gap: 8px;
 
-  border: 1px solid #EEEEEE;
+  border: 1px solid var(--quoteBorderColor);
 
   border-radius: 4px;
 
@@ -357,7 +356,6 @@ blockquote {
   flex-grow: 0;
 
 }
-
 
 
 img {
