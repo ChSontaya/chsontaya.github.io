@@ -1,54 +1,33 @@
 * {
-
   /* off selection */
 
   -webkit-touch-callout: none;
 
   -webkit-user-select: none;
-
 }
 
-
-
-input[type=text],
-
-input[type=password],
-
-input[type=email],
-
-input[type=number],
-
-input[type=time],
-
-input[type=date],
-
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="time"],
+input[type="date"],
 textarea {
-
   /* on selection */
 
   -webkit-touch-callout: auto;
 
   -webkit-user-select: auto;
-
 }
-
-
 
 padding: 0px;
 
-
-
->*+* {
-
+> * + * {
   margin-top: 0.75em;
-
 }
 
-
-
 h1 {
-
-  font-family: 'The1 Official';
+  font-family: the_one_official_Bold;
 
   font-style: normal;
 
@@ -69,14 +48,10 @@ h1 {
   order: 0;
 
   flex-grow: 0;
-
 }
 
-
-
 h2 {
-
-  font-family: 'Bai Jamjuree';
+  font-family: BaiJamjuree-Regular;
 
   font-style: normal;
 
@@ -95,243 +70,192 @@ h2 {
   order: 0;
 
   flex-grow: 0;
-
 }
 
-
-
 h3 {
-
-  font-family: Bai Jamjuree;
+  font-family: BaiJamjuree-Medium;
 
   color: var(--fontColor);
 
   word-break: break-word;
 
   padding: 0 13px;
-
 }
-
-
 
 .t1 h1 {
-
   font-size: 20px;
-
 }
-
-
 
 .t1 h2 {
-
   font-size: 14px;
-
 }
-
-
 
 .t1 h3 {
-
   font-size: 10px;
-
 }
-
-
 
 .t2 h1 {
-
   font-size: 22px;
-
 }
-
-
 
 .t2 h2 {
-
   font-size: 16px;
-
 }
-
-
 
 .t2 h3 {
-
   font-size: 12px;
-
 }
-
-
 
 .t3 h1 {
-
   font-size: 24px;
-
 }
-
-
 
 .t3 h2 {
-
   font-size: 18px;
-
 }
-
-
 
 .t3 h3 {
-
   font-size: 14px;
-
 }
-
-
 
 .t4 h1 {
-
   font-size: 26px;
-
 }
-
-
 
 .t4 h2 {
-
   font-size: 20px;
-
 }
-
-
 
 .t4 h3 {
-
   font-size: 16px;
-
 }
-
-
 
 .t5 h1 {
-
   font-size: 28px;
-
 }
-
-
 
 .t5 h2 {
-
   font-size: 22px;
-
 }
-
-
 
 .t5 h3 {
-
   font-size: 18px;
-
 }
-
-
 
 .t1 blockquote {
-
   font-size: 18px;
-
 }
-
-
 
 .t2 blockquote {
-
   font-size: 20px;
-
 }
-
-
 
 .t3 blockquote {
-
   font-size: 22px;
-
 }
-
-
 
 .t4 blockquote {
-
   font-size: 24px;
-
 }
-
-
 
 .t5 blockquote {
-
   font-size: 26px;
-
 }
 
-
-
-.t1 p,p.a,p.b,span,u,um,div,ul,li,b,b.a,a:link,a:visited {
-
+.t1 p,
+p.a,
+p.b,
+span,
+u,
+um,
+div,
+ul,
+li,
+b,
+b.a,
+a:link,
+a:visited {
   font-size: 14px;
-
 }
 
-
-
-.t2 p,p.a,p.b,span,u,um,div,ul,li,b,b.a,a:link,a:visited {
-
+.t2 p,
+p.a,
+p.b,
+span,
+u,
+um,
+div,
+ul,
+li,
+b,
+b.a,
+a:link,
+a:visited {
   font-size: 16px;
-
 }
 
-
-
-.t3 p,p.a,p.b,span,u,um,div,ul,li,b,b.a,a:link,a:visited {
-
+.t3 p,
+p.a,
+p.b,
+span,
+u,
+um,
+div,
+ul,
+li,
+b,
+b.a,
+a:link,
+a:visited {
   font-size: 18px;
-
 }
 
-
-
-.t4 p,p.a,p.b,span,u,um,div,ul,li,b,b.a,a:link,a:visited {
-
+.t4 p,
+p.a,
+p.b,
+span,
+u,
+um,
+div,
+ul,
+li,
+b,
+b.a,
+a:link,
+a:visited {
   font-size: 20px;
-
 }
 
-
-
-.t5 p,p.a,p.b,span,u,um,div,ul,li,b,b.a,a:link,a:visited {
-
+.t5 p,
+p.a,
+p.b,
+span,
+u,
+um,
+div,
+ul,
+li,
+b,
+b.a,
+a:link,
+a:visited {
   font-size: 22px;
-
 }
-
-
 
 code {
-
   font-family: Bai Jamjuree;
 
   color: #616161;
 
   background-color: rgba(97, 97, 97, 0.1);
-
 }
 
-
 blockquote {
-
-  font-family: The1 Official;
+  font-family: the_one_official_Regular;
 
   background: var(--dominantColor);
 
-  margin-left: 1rem;
+  margin: auto;
 
   border-left: 2px solid #b2b2b2;
 
@@ -354,13 +278,14 @@ blockquote {
   order: 0;
 
   flex-grow: 0;
-
 }
-
 
 img {
+  background: #dddddd;
 
   border-radius: 4px;
+
+  margin: auto;
 
   flex: none;
 
@@ -368,12 +293,14 @@ img {
 
   flex-grow: 0;
 
+  display: inline;
+
+  height: auto;
+
+  max-width: 100%;
 }
-
-
 
 iframe {
-
   border-radius: 4px;
 
   flex: none;
@@ -381,23 +308,15 @@ iframe {
   order: 0;
 
   flex-grow: 0;
-
 }
 
-
-
 a {
-
   color: #3ea6ff;
 
   word-break: break-word;
-
 }
 
-
-
 ul {
-
   font-family: Bai Jamjuree;
 
   color: var(--fontColor);
@@ -406,46 +325,24 @@ ul {
 
   list-style: disc;
 
-
-
   li {
-
     padding: 0;
 
     p {
-
       padding-left: 0 !important;
-
     }
-
-
 
     ul {
-
       margin-left: 1rem;
-
     }
-
-
 
     ol {
-
       margin-left: 1rem;
-
     }
-
   }
-
 }
 
-
-
-
-
-
-
 ol {
-
   font-family: Bai Jamjuree;
 
   color: var(--fontColor);
@@ -454,66 +351,33 @@ ol {
 
   list-style: number;
 
-
-
   li {
-
     p {
-
       padding-left: 0 !important;
-
     }
 
     ul {
-
       margin-left: 1rem;
-
     }
 
     ol {
-
       margin-left: 1rem;
-
     }
-
   }
-
 }
-
-
 
 figure {
-
   img {
-
     width: 100% !important;
-
   }
-
 }
-
-
-
-img {
-
-  display: inline;
-
-  height: auto;
-
-  max-width: 100%;
-
-}
-
-
 
 strong {
-
   color: var(--fontColor);
 
   font-weight: 700 !important;
-
 }
 
 p {
-	color: var(--fontColor);
+  color: var(--fontColor);
 }
