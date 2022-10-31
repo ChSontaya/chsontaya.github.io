@@ -142,23 +142,23 @@ h3 {
   font-size: 18px;
 }
 
-.t1 blockquote {
+.t1 blockquote p {
   font-size: 18px;
 }
 
-.t2 blockquote {
-  font-size: 40px;
+.t2 blockquote p {
+  font-size: 20px;
 }
 
-.t3 blockquote {
+.t3 blockquote p {
   font-size: 22px;
 }
 
-.t4 blockquote {
+.t4 blockquote p {
   font-size: 24px;
 }
 
-.t5 blockquote {
+.t5 blockquote p {
   font-size: 26px;
 }
 
