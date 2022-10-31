@@ -33,7 +33,7 @@ h1 {
 
   font-weight: 700;
 
-  line-height: 130%;
+  line-height: 140%;
 
   color: var(--fontColor);
 
@@ -48,6 +48,10 @@ h1 {
   order: 0;
 
   flex-grow: 0;
+
+  margin-top: 0px;
+  
+  margin-bottom: 16px;
 }
 
 h2 {
