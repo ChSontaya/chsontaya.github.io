@@ -255,8 +255,8 @@ blockquote {
 
   background: var(--dominantColor);
 
-  margin: auto;
-
+  margin: 28px 0px;
+  
   border-left: 2px solid #b2b2b2;
 
   display: flex;
@@ -265,7 +265,7 @@ blockquote {
 
   align-items: center;
 
-  padding: 34px 16px;
+  padding: 32px 16px;
 
   gap: 8px;
 
@@ -278,6 +278,8 @@ blockquote {
   order: 0;
 
   flex-grow: 0;
+ 
+  line-height: 32px
 }
 
 img {
@@ -382,4 +384,5 @@ strong {
 
 p {
   color: var(--fontColor);
+  margin: 0;
 }
