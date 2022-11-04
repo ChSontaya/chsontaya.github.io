@@ -22,7 +22,7 @@ textarea {
 
 padding: 0px;
 
-  * + * {
+> * + * {
   margin-top: 0.75em;
 }
 
@@ -48,10 +48,10 @@ h1 {
   order: 0;
 
   flex-grow: 0;
-
-  margin-top: 0px;
   
-  margin-bottom: 16px;
+  margin-top: 16px;
+  
+  margin-bottom: 0px;
 }
 
 h2 {
@@ -67,7 +67,7 @@ h2 {
 
   word-break: break-word;
 
-  padding: 0 13px;
+  padding: 0 0px;
 
   flex: none;
 
@@ -79,11 +79,15 @@ h2 {
 h3 {
   font-family: BaiJamjuree-Medium;
 
-  color: var(--fontColor);
+  color: #707070;
 
   word-break: break-word;
+  
+  line-height: 130%;
 
-  padding: 0 13px;
+  padding: 0 0px;
+  
+  margin-top: 0px;
 }
 
 .t1 h1 {
@@ -98,6 +102,18 @@ h3 {
   font-size: 10px;
 }
 
+.t1 blockquote p {
+  font-size: 18px;
+}
+
+.t1 p {
+  font-size: 14px;
+}
+
+.t1 p a {
+  font-size: 14px;
+}
+
 .t2 h1 {
   font-size: 20px;
 }
@@ -108,6 +124,18 @@ h3 {
 
 .t2 h3 {
   font-size: 12px;
+}
+
+.t2 blockquote p {
+  font-size: 20px;
+}
+
+.t2 p {
+  font-size: 16px;
+}
+
+.t2 p a {
+  font-size: 16px;
 }
 
 .t3 h1 {
@@ -122,6 +150,18 @@ h3 {
   font-size: 14px;
 }
 
+.t3 blockquote p {
+  font-size: 22px;
+}
+
+.t3 p {
+  font-size: 18px;
+}
+
+.t3 p a {
+  font-size: 18px;
+}
+
 .t4 h1 {
   font-size: 24px;
 }
@@ -132,6 +172,18 @@ h3 {
 
 .t4 h3 {
   font-size: 16px;
+}
+
+.t4 blockquote p {
+  font-size: 24px;
+}
+
+.t4 p {
+  font-size: 20px;
+}
+
+.t4 p a {
+  font-size: 20px;
 }
 
 .t5 h1 {
@@ -146,108 +198,20 @@ h3 {
   font-size: 18px;
 }
 
-.t1 blockquote p {
-  font-size: 18px;
-}
-
-.t2 blockquote p {
-  font-size: 20px;
-}
-
-.t3 blockquote p {
-  font-size: 22px;
-}
-
-.t4 blockquote p {
-  font-size: 24px;
-}
-
 .t5 blockquote p {
   font-size: 26px;
 }
 
-.t1 p,
-p.a,
-p.b,
-span,
-u,
-um,
-div,
-ul,
-li,
-b,
-b.a,
-a:link,
-a:visited {
-  font-size: 14px;
+.t5 p {
+  font-size: 22px;
 }
 
-.t2 p,
-p.a,
-p.b,
-span,
-u,
-um,
-div,
-ul,
-li,
-b,
-b.a,
-a:link,
-a:visited {
-  font-size: 16px;
-}
-
-.t3 p,
-p.a,
-p.b,
-span,
-u,
-um,
-div,
-ul,
-li,
-b,
-b.a,
-a:link,
-a:visited {
-  font-size: 18px;
-}
-
-.t4 p,
-p.a,
-p.b,
-span,
-u,
-um,
-div,
-ul,
-li,
-b,
-b.a,
-a:link,
-a:visited {
-  font-size: 20px;
-}
-
-.t5 p,
-p.a,
-p.b,
-span,
-u,
-um,
-div,
-ul,
-li,
-b,
-b.a,
-a:link,
-a:visited {
+.t5 p a {
   font-size: 22px;
 }
 
 code {
-  font-family: BaiJamjuree-Regular;
+  font-family: Bai Jamjuree;
 
   color: #616161;
 
@@ -291,7 +255,9 @@ img {
 
   border-radius: 4px;
 
-  margin: auto;
+  margin-top: 16px;
+  
+  margin-bottom: 8px;
 
   flex: none;
 
@@ -329,7 +295,7 @@ ul {
 
   color: var(--fontColor);
 
-  margin-left: 2rem;
+  margin-left: 0px;
 
   list-style: disc;
 
@@ -355,7 +321,7 @@ ol {
 
   color: var(--fontColor);
 
-  margin-left: 2rem;
+  margin-left: 0px;
 
   list-style: number;
 
@@ -388,5 +354,8 @@ strong {
 
 p {
   color: var(--fontColor);
-  margin: 0;
+  
+  margin: 6px 0px;
+  
+  line-height: 180%;
 }
